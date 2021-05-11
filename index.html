@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Byron Lee Tinker's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <header>
+        <img src="./byron1.jpeg" alt="my-profile" />
+        <h3>Byron Lee Tinker</h3>
+        <h5>Software Developer</h5>
+      </header>
+      <ul class="navbar-links">
+        <li class="navbar-link">
+          <a href="#About" class="navbar-anchor"
+            >About ME <i class="far fa-address-card"></i
+          ></a>
+        </li>
+        <li class="navbar-link">
+          <a href="#Work" class="navbar-anchor"
+            >Work and Experience <i class="fas fa-book-reader"></i
+          ></a>
+        </li>
+        <li class="navbar-link">
+          <a href="#Projects" class="navbar-anchor"
+            >Projects <i class="fas fa-tasks"></i
+          ></a>
+        </li>
+        <li class="navbar-link">
+          <a href="#Testimonials" class="navbar-anchor"
+            >Testimonials <i class="fas fa-user-friends"></i
+          ></a>
+        </li>
+        <li class="navbar-link">
+          <a href="#Contact" class="navbar-anchor"
+            >Contact <i class="far fa-address-book"></i
+          ></a>
+        </li>
+      </ul>
+      <button class="navbar-button" onclick="toggleNavbar()">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+    <section>
+      <div class="landing">
+        <div class="my-profile">
+          <img src="./Byron-lee Tinker (2).JPG" alt="my-profile" />
+          <header>
+            <span><h4>Software Developer</h4></span>
+            <span><h1>Byron Lee Tinker</h1></span>
+            <div class="btns">
+              <a
+                class="btn"
+                href="./CV-ByronTinker-2.pdf"
+                title="Download CV"
+                download
+                >Download CV</a
+              >
+              <a href="#About" class="btn">About ME</a>
+            </div>
+          </header>
+        </div>
+      </div>
+    </section>
+    <section id="About">
+      <header>
+        <div class="heading"><h1>Who is Byron Lee Tinker?</h1></div>
+      </header>
+      <div class="info">
+        Aspiring Software Developer
+        <span>Age: 18</span>
+        <span> Phone number: 0678633051</span>
+        <span> Email: byronleetinker03@gmail.com</span>
+        <span> Residence: Cape Town, South Africa</span>
+      </div>
+      <div class="about">
+        I'm a hardworking student who always works to the best of my ability. I
+        tend to struggle to learn new concepts initially but once I'm
+        comfortable with the topics, I'm able to ace whatever test is thrown my
+        way. I’m a good communicator and team player and will persist to help my
+        team achieve what ever goal is set for them.
+      </div>
+
+      <div class="begin">
+        Where did your passion for coding start I was always the family tech
+        guy, who would help when someone needed assistance with their cellphones
+        or the television and with that my passion for technology grew and I was
+        able to gain confidence from it.
+      </div>
+      <div class="passion">
+        Dancing and listening to music Any kind of sport but particularly enjoy
+        swimming listening to podcast especially murder mysteries and conspiracy
+        theories, Outdoor activities in particular hiking and traveling in the
+        wilderness as nature is one of my many passions Petting and caring for
+        animals.
+      </div>
+    </section>
+    <section id="Work">
+      <div class="soft">
+        Soft Skills Teamwork, Good communication, Flexibility, Hardworking,
+        Persistent, Caring and Kind
+      </div>
+      <div class="technical">
+        Technical Skills Microsoft Office: Word, Excel, Powerpoint
+      </div>
+      <div class="education">
+        Educational Background Matric: Bachelor's pass.
+      </div>
+    </section>
+    <section id="Projects">Projects</section>
+    <section id="Testimonials">Testimonials</section>
+    <section id="Contact">Contact me</section>
+    <footer></footer>
+    <script
+      src="https://kit.fontawesome.com/63e7421244.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      function toggleNavbar() {
+        document
+          .getElementsByClassName("navbar-links")[0]
+          .classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
