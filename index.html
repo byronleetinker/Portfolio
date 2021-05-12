@@ -5,45 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Byron Lee Tinker's Portfolio</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <nav class="navbar">
-      <header>
-        <img src="./byron1.jpeg" alt="my-profile" />
-        <h3>Byron Lee Tinker</h3>
-        <h5>Software Developer</h5>
-      </header>
       <ul class="navbar-links">
-        <li class="navbar-link">
-          <a href="#About" class="navbar-anchor"
-            >About ME <i class="far fa-address-card"></i
-          ></a>
-        </li>
-        <li class="navbar-link">
-          <a href="#Work" class="navbar-anchor"
-            >Work and Experience <i class="fas fa-book-reader"></i
-          ></a>
-        </li>
-        <li class="navbar-link">
-          <a href="#Projects" class="navbar-anchor"
-            >Projects <i class="fas fa-tasks"></i
-          ></a>
-        </li>
-        <li class="navbar-link">
-          <a href="#Testimonials" class="navbar-anchor"
-            >Testimonials <i class="fas fa-user-friends"></i
-          ></a>
-        </li>
-        <li class="navbar-link">
-          <a href="#Contact" class="navbar-anchor"
-            >Contact <i class="far fa-address-book"></i
-          ></a>
-        </li>
+        <header>
+          <img src="./byron1.jpeg" alt="Me"> Byron Lee Tinker Software Developer
+      </header>
+        <li class="navbar-link"><i class="fas fa-user"></i><a href="#About" class="navbar-anchor">About Me</a></li>
+        <li class="navbar-link"><a href="#Work" class="navbar-anchor">Work and Experience</a></li>
+        <li class="navbar-link"><i class="fas fa-book-reader"></i><a href="#Projets" class="navbar-anchor">Projects</a></li>
+        <li class="navbar-link"><i class="fas fa-users"></i><a href="#Testimonials" class="navbar-anchor">Testimonials</a></li>
+        <li class="navbar-link"><i class="fas fa-address-book"></i><a href="#Contact" class="navbar-anchor">Contact Me</a></li>
       </ul>
-      <button class="navbar-button" onclick="toggleNavbar()">
-        <i class="fas fa-bars"></i>
-      </button>
+      <button class="navbar-button" onclick="toggleNavbar()"><i class="fas fa-bars"></button></i>
     </nav>
     <section>
       <div class="landing">
@@ -67,36 +44,38 @@
       </div>
     </section>
     <section id="About">
-      <header>
-        <div class="heading"><h1>Who is Byron Lee Tinker?</h1></div>
-      </header>
-      <div class="info">
-        Aspiring Software Developer
-        <span>Age: 18</span>
-        <span> Phone number: 0678633051</span>
-        <span> Email: byronleetinker03@gmail.com</span>
-        <span> Residence: Cape Town, South Africa</span>
-      </div>
-      <div class="about">
-        I'm a hardworking student who always works to the best of my ability. I
-        tend to struggle to learn new concepts initially but once I'm
-        comfortable with the topics, I'm able to ace whatever test is thrown my
-        way. I’m a good communicator and team player and will persist to help my
-        team achieve what ever goal is set for them.
-      </div>
+      <div class="heading">Who is Byron Lee Tinker?</div>
+      <div class="timeline-container">
+        <div class="Line"></div>
+        <div data-aos="fade-right" class="timeline-items item-1">
+          Aspiring Software Developer
+          <span>Age: 18</span>
+          <span> Phone number: 0678633051</span>
+          <span> Email: byronleetinker03@gmail.com</span>
+          <span> Residence: Cape Town, South Africa</span>
+        </div>
+        <div data-aos="fade-left" class="timeline-items item-2">
+          I'm a hardworking student who always works to the best of my ability.
+          I tend to struggle to learn new concepts initially but once I'm
+          comfortable with the topics, I'm able to ace whatever test is thrown
+          my way. I’m a good communicator and team player and will persist to
+          help my team achieve what ever goal is set for them.
+        </div>
 
-      <div class="begin">
-        Where did your passion for coding start I was always the family tech
-        guy, who would help when someone needed assistance with their cellphones
-        or the television and with that my passion for technology grew and I was
-        able to gain confidence from it.
-      </div>
-      <div class="passion">
-        Dancing and listening to music Any kind of sport but particularly enjoy
-        swimming listening to podcast especially murder mysteries and conspiracy
-        theories, Outdoor activities in particular hiking and traveling in the
-        wilderness as nature is one of my many passions Petting and caring for
-        animals.
+        <div data-aos="fade-right" class="timeline-items item-3">
+          My passion for coding started because I was always the family tech
+          guy, who would help when someone needed assistance with their
+          cellphones or the television and with that my passion for technology
+          grew and I was able to gain confidence from it.
+        </div>
+        <div data-aos="fade-left" class="timeline-items item-4">
+          <div>
+            <span>Dancing and listening to music.</span> <span>Any kind of sport but
+            particularly enjoy swimming.</span> <span>Listening to podcast especially murder
+            mysteries and conspiracy theories.</span> <span>Outdoor activities in particular
+            hiking and traveling in the wilderness as nature is one of my many
+            passions.</span> <span>Petting and caring for animals.</span> 
+        </div>
       </div>
     </section>
     <section id="Work">
@@ -113,7 +92,60 @@
     </section>
     <section id="Projects">Projects</section>
     <section id="Testimonials">Testimonials</section>
-    <section id="Contact">Contact me</section>
+    <section id="Contact">
+      <div class="contact-icons">
+<div class="phone"><i class="fas fa-mobile-alt"></i> <span>Phone number</span>
+<p>0678633051</p></div>
+      <div class="email"><i class="far fa-envelope"></i><span>Email</span><p>byronleetinker03@gmail.com</p></div>
+     <div class="address"><i class="fas fa-map-pin"></i><span>Home</span><p>Cape Town, South Africa</p></div> 
+</div>
+      <form id="form" action="https://formspree.io/f/xbjqlwjg" method="POST">
+        <div class="contact-input">
+          <h2>Contact Me</h2>
+          <div class="contact-info">
+            <label class="contact-label"> Your name:</label>
+            <input
+              class="contact-bar"
+              type="name"
+              name="name"
+              required
+              placeholder="Name"
+            />
+          </div>
+          <div class="contact-info">
+            <label class="contact-label"> Your phone number:</label>
+            <input
+              class="contact-bar"
+              type="phone number"
+              name="number"
+              required
+              placeholder="Phone number"
+            />
+          </div>
+          <div class="contact-info">
+            <label class="contact-label"> Your email:</label>
+            <input
+              class="contact-bar"
+              type="email"
+              name="_replyto"
+              required
+              placeholder="Email"
+            />
+          </div>
+          <div class="contact-info">
+            <label class="contact-label"> Your message:</label>
+            <input
+              class=" contact-bar"
+              type="message"
+              name="message"
+              required
+              placeholder="Your message"
+            >
+          </div>
+          <button class="contact-button" type="submit">SUBMIT</button>
+        </div>
+      </form>
+    </section>
     <footer></footer>
     <script
       src="https://kit.fontawesome.com/63e7421244.js"
@@ -126,5 +158,9 @@
           .classList.toggle("active");
       }
     </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </body>
+  <script>
+    AOS.init();
+  </script>
 </html>
