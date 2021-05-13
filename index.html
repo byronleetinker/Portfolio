@@ -11,12 +11,12 @@
   <body>
     <nav class="navbar">
       <ul class="navbar-links">
-        <header>
-          <img src="./byron1.jpeg" alt="Me"> Byron Lee Tinker Software Developer
+        <header class="header">
+          <img src="./byron1.jpeg" alt="Me"> <span><h3>Byron Lee Tinker</h3></span><span><h4>Software Developer</h4></span>
       </header>
         <li class="navbar-link"><i class="fas fa-user"></i><a href="#About" class="navbar-anchor">About Me</a></li>
-        <li class="navbar-link"><a href="#Work" class="navbar-anchor">Work and Experience</a></li>
-        <li class="navbar-link"><i class="fas fa-book-reader"></i><a href="#Projets" class="navbar-anchor">Projects</a></li>
+        <li class="navbar-link"><i class="fas fa-book-reader"></i><a href="#Work" class="navbar-anchor">Work and Education</a></li>
+        <li class="navbar-link"><i class="fas fa-tasks"></i><a href="#Projects" class="navbar-anchor">Projects</a></li>
         <li class="navbar-link"><i class="fas fa-users"></i><a href="#Testimonials" class="navbar-anchor">Testimonials</a></li>
         <li class="navbar-link"><i class="fas fa-address-book"></i><a href="#Contact" class="navbar-anchor">Contact Me</a></li>
       </ul>
@@ -79,26 +79,88 @@
       </div>
     </section>
     <section id="Work">
-      <div class="soft">
-        Soft Skills Teamwork, Good communication, Flexibility, Hardworking,
-        Persistent, Caring and Kind
+      <div class="work-container">
+        <div class="soft">
+        <h5>Soft Skills Teamwork </h5> <span>Good communication</span> <span>Flexibility</span> <span>Hardworking</span> <span>Persistent</span>
+        <span>Caring and Kind</span> 
       </div>
-      <div class="technical">
-        Technical Skills Microsoft Office: Word, Excel, Powerpoint
+     
+        
+          <div class="education">
+       <h5>Educational Background</h5> <span>Grade 12: Bachelor's pass</span> 
+         
+       </div>
+        <div class="skills">
+<h5>My Skills</h5><span>Microsoft Office</span> <span>Microsoft Word</span> <span>Microsoft Exel</span> <span>Microsoft Powerpoint</span> 
+</div>
+    </div>
+    </section>
+    <section id="Projects"><header>My Projects</header>
+      <div class="cards"><img src="./timeline.png" alt="timeline"></div>
+      <div class="details">
+         <span> Timeline</span>  
+          <span>HTML/CSS</span> 
+          <p class="card-description">
+            My Timeline.
+          </p>
+          <div class="card-buttons">
+            <a
+              href="https://pensive-wilson-88f1ac.netlify.app/"
+              target="_blank"
+              class="button"
+              >Live</a
+            >
+            <a
+              href="https://github.com/byronleetinker/glassmorphic_timeline.git"
+              target="_blank"
+              class="button"
+              >Github</a
+            >
+      </div> 
+      <div class="cards"><img src="./form.png" alt="form"></div>
+      <div class="details">
+        <span>Contact Form</span> 
+        <span>HTML/CSS</span>
+          <p class="card-description">
+           My contact form.
+          </p>
+          <div class="card-buttons">
+            <a
+              href="https://musing-mahavira-9870ca.netlify.app/"
+              target="_blank"
+              class="button"
+              >Live</a
+            >
+            <a
+              href="https://github.com/byronleetinker/contact_form.git"
+              target="_blank"
+              class="button"
+              >Github</a>
       </div>
-      <div class="education">
-        Educational Background Matric: Bachelor's pass.
+              <div class="cards"><img src="./testimonial.png" alt="testimonial"></div>
+              <div class="details">
+                <span>Testimonial slider</span> 
+                <span>HTML/CSS</span> 
+                <p class="card-description">
+                  My Testimonials.
+                <div class="card-buttons">
+                  <a
+                    href="https://frosty-thompson-9cf5d5.netlify.app/"
+                    target="_blank"
+                    class="button"
+                    >Live</a
+                  >
+                  <a
+                    href="https://github.com/byronleetinker/testimonials.git"
+                    target="_blank"
+                    class="button"
+                    >Github</a
+                  >
       </div>
     </section>
-    <section id="Projects">Projects</section>
     <section id="Testimonials">Testimonials</section>
     <section id="Contact">
-      <div class="contact-icons">
-<div class="phone"><i class="fas fa-mobile-alt"></i> <span>Phone number</span>
-<p>0678633051</p></div>
-      <div class="email"><i class="far fa-envelope"></i><span>Email</span><p>byronleetinker03@gmail.com</p></div>
-     <div class="address"><i class="fas fa-map-pin"></i><span>Home</span><p>Cape Town, South Africa</p></div> 
-</div>
+      
       <form id="form" action="https://formspree.io/f/xbjqlwjg" method="POST">
         <div class="contact-input">
           <h2>Contact Me</h2>
@@ -146,7 +208,12 @@
         </div>
       </form>
     </section>
-    <footer></footer>
+    <footer class="footer"><div class="contact-icons">
+<div class="phone"><i class="fas fa-mobile-alt"></i> <span>Phone number</span>
+<p>0678633051</p></div>
+      <div class="email"><i class="far fa-envelope"></i><span>Email</span><p>byronleetinker03@gmail.com</p></div>
+     <div class="address"><i class="fas fa-map-pin"></i><span>Home</span><p>Cape Town, South Africa</p></div> 
+</div></footer>
     <script
       src="https://kit.fontawesome.com/63e7421244.js"
       crossorigin="anonymous"
