@@ -6,11 +6,10 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Anton", sans-serif;
 }
 
 .navbar-links {
-  z-index: 999;
   color: whitesmoke;
   display: flex;
   list-style-type: none;
@@ -18,7 +17,7 @@ body {
   background: #1e1e1e;
   position: fixed;
   left: -100%;
-  width: 12%;
+  width: 8%;
   height: 100vh;
   justify-content: flex-start;
   align-items: center;
@@ -86,6 +85,14 @@ body {
   padding-top: 40px;
 }
 
+.navbar h3 {
+  font-size: 17px;
+}
+
+.navbar h4 {
+  font-size: 20px;
+}
+
 .my-profile {
   height: 100vh;
   display: flex;
@@ -111,12 +118,14 @@ h3 {
   color: #f0f8ff;
   padding: 10px;
   padding-top: 10px;
+  font-size: 30px;
 }
 
 h4 {
   text-align: center;
   color: whitesmoke;
   padding-bottom: 20px;
+  font-size: 30px;
 }
 
 h5 {
@@ -262,15 +271,14 @@ h5 {
   background-color: #1e1e1e;
   height: 100vh;
   color: whitesmoke;
-  padding: 5% 0;
   /* display: grid;
   place-items: center; */
 }
 
 .work-container {
   display: flex;
-  justify-content: space-around;
-  /* margin: 10px 10px 10px 200px; */
+  justify-content: flex-end;
+  margin: 10px 10px 10px 100px;
   /* display: grid; */
   /* grid-template-columns: 1fr 1fr 1fr; */
   /* grid-template-rows: 1; */
@@ -309,10 +317,6 @@ h5 {
   -webkit-backdrop-filter: blur(10px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-}
-
-.skills {
-  /* margin: 0px 0px 20px 20px; */
 }
 
 .soft span {
@@ -560,6 +564,10 @@ img {
   max-width: 150px;
   max-height: 150px;
   margin: auto;
+}
+
+.inner q {
+  font-size: 30px;
 }
 
 #Contact {
