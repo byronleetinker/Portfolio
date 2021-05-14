@@ -1,0 +1,64 @@
+@media only screen and (max-width: 600px) {
+  .navbar-links {
+    width: 30%;
+  }
+
+  .my-profile {
+    flex-direction: column;
+  }
+
+  .my-profile img {
+    width: 70%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+
+  .heading {
+    font-size: 30px;
+  }
+
+  .timeline-container {
+    display: block;
+  }
+
+  .timeline-items {
+    display: flex;
+    width: 100%;
+    height: 30%;
+    font-size: 10px;
+    margin-bottom: 20%;
+  }
+
+  .timeline-items .item-1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Line {
+    display: none;
+  }
+
+  .work-container {
+    display: block;
+    font-size: 10%;
+  }
+
+  .work-container .soft {
+    font-size: 10px;
+    width: 50%;
+    height: 30%;
+  }
+
+  .work-container .education {
+    font-size: 10px;
+    width: 50%;
+    height: 30%;
+  }
+
+  .work-container .skills {
+    font-size: 10px;
+    width: 50%;
+    height: 30%;
+  }
+}

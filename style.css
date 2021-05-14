@@ -22,7 +22,7 @@ body {
   justify-content: flex-start;
   align-items: center;
   text-transform: uppercase;
-  gap: 70px;
+  gap: 60px;
   font-family: sans-serif;
   transition: all 0.3s linear;
 }
@@ -83,6 +83,10 @@ body {
   outline: none;
   padding-right: 30px;
   padding-top: 40px;
+}
+
+.navbar-link:hover {
+  padding-left: 20px;
 }
 
 .navbar h3 {
