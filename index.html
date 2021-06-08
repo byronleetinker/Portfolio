@@ -25,23 +25,31 @@
     <nav class="navbar">
       <ul class="navbar-links">
         <header class="header">
-          <img src="./byron1.jpeg" alt="Me"> <span><h3>Byron Lee Tinker</h3></span><span><h4>Software Developer</h4></span>
+          <img src="./byron1.jpeg" alt="Me"> <span><h1>Byron Lee Tinker</h1></span><span>Software Developer</span>
+          <div class="icons"><li><a href="https://github.com/byronleetinker" target="_blank"><span class="iconify" data-icon="akar-icons:github-fill" data-inline="false"></span></a></li><li><a href="https://app.netlify.com/teams/byronleetinker/overview" target="_blank"><span class="iconify" data-icon="cib:netlify" data-inline="false"></a></span></li><li><a href="https://replit.com/@byronleetinker" target="_blank"><span class="iconify" data-icon="simple-icons:replit" data-inline="false"></a></span></li><li><a href="https://codepen.io/byronleetinker" target="_blank"><span class="iconify" data-icon="akar-icons:codepen-fill" data-inline="false"></span></li></a></div>
       </header>
-        <li class="navbar-link"><i class="fas fa-user"></i><a href="#About" class="navbar-anchor">About Me</a></li>
-        <li class="navbar-link"><i class="fas fa-book-reader"></i><a href="#Work" class="navbar-anchor">Work and Education</a></li>
-        <li class="navbar-link"><i class="fas fa-tasks"></i><a href="#Projects" class="navbar-anchor">Projects</a></li>
-        <li class="navbar-link"><i class="fas fa-users"></i><a href="#Testimonials" class="navbar-anchor">Testimonials</a></li>
-        <li class="navbar-link"><i class="fas fa-address-book"></i><a href="#Contact" class="navbar-anchor">Contact Me</a></li>
+        <li class="navbar-link"><a href="#About" class="navbar-anchor">About Me</a></li>
+        <li class="navbar-link"><a href="#Work" class="navbar-anchor">Work and Education</a></li>
+        <li class="navbar-link"><a href="#Projects" class="navbar-anchor">Projects</a></li>
+        <li class="navbar-link"><a href="#Testimonials" class="navbar-anchor">Testimonials</a></li>
+        <li class="navbar-link"><a href="#Contact" class="navbar-anchor">Contact Me</a></li>
       </ul>
       <button class="navbar-button" onclick="toggleNavbar()"><i class="fas fa-bars"></button></i>
     </nav>
     <section>
       <div class="landing">
         <div class="my-profile">
-          <img src="./Byron-lee Tinker (1).JPG" alt="my-profile" />
+         
           <header>
-            <span><h4>Software Developer</h4></span>
-            <span><h1>Byron Lee Tinker</h1></span>
+            <span>Aspiring Software Developer</span>
+            <span> <h1>Hi, I'm Byron Lee Tinker.</h1> </span>
+            <div class="about-1">
+          I'm a hardworking student who always works to the best of my ability.
+          I tend to struggle to learn new concepts initially but once I'm
+          comfortable with the topics, I'm able to ace whatever test is thrown
+          my way. I’m a good communicator and team player and will persist to
+          help my team achieve what ever goal is set for them.
+        </div>
             <div class="btns">
               <a
                 class="btn"
@@ -50,32 +58,14 @@
                 download
                 >Download CV</a
               >
-              <a href="#About" class="btn">About ME</a>
+              <a href="#Contact" class="btn1">Contact</a>
             </div>
-          </header>
+          </header><img src="./Byron-lee Tinker (1).JPG" alt="my-profile" />
         </div>
       </div>
+        <div class="about-2">
 
-    </section>
-    <section id="About">
-      <div class="heading">Who is Byron Lee Tinker?</div>
-      <div class="timeline-container">
-        <div class="Line"></div>
-        <div data-aos="fade-right" class="timeline-items item-1">
-          Aspiring Software Developer
-          <span>Age: 18</span>
-          <span> Phone number: 0678633051</span>
-          <span> Email: byronleetinker03@gmail.com</span>
-          <span> Residence: Cape Town, South Africa</span>
-        </div>
-        <div data-aos="fade-left" class="timeline-items item-2">
-          I'm a hardworking student who always works to the best of my ability.
-          I tend to struggle to learn new concepts initially but once I'm
-          comfortable with the topics, I'm able to ace whatever test is thrown
-          my way. I’m a good communicator and team player and will persist to
-          help my team achieve what ever goal is set for them.
-        </div>
-
+        
         <div data-aos="fade-right" class="timeline-items item-3">
           My passion for coding started because I was always the family tech
           guy, who would help when someone needed assistance with their
@@ -91,7 +81,6 @@
             passions.</span> <span>Petting and caring for animals.</span> 
         </div>
       </div>
-    </section>
     <section id="Work">
       <h1 class="work-container-heading">Work and Education</h1>
       <div class="work-container">
@@ -244,6 +233,7 @@
       <form id="form" action="https://formspree.io/f/xbjqlwjg" method="POST">
         <div class="contact-input">
           <h2>Contact Me</h2>
+          <span>Get in Touch</span>
           <div class="contact-info">
             <label class="contact-label"> Your name:</label>
             <input
@@ -328,6 +318,7 @@
       }
     </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
   </body>
   <script>
     AOS.init();
