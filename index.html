@@ -24,7 +24,7 @@
   <body>
     <nav class="navbar">
       <ul class="navbar-links">
-        <header class="header">
+        <header class="nav-header">
           <img src="./byron1.jpeg" alt="Me"> <span><h1>Byron Lee Tinker</h1></span><span>Software Developer</span>
           <div class="icons">
             <li><a href="https://github.com/byronleetinker" target="_blank"><span class="iconify" data-icon="akar-icons:github-fill" data-inline="false"></span></a></li>
@@ -209,57 +209,73 @@
       <div class="owl-carousel">
      <div class="inner">  
           <div class="image"> 
+            <div class="header">
             <img src="https://lifechoicesacademy.com/wp-content/uploads/2020/01/Life-Choices-Academy-About-Us-Team-Member-Thapelo.jpg" alt="">
-          </div>
-        <h3>Thapelo Tsotetsi</h3>
+            <div class="info">
+            <h3>Thapelo Tsotetsi</h3>
           <h4>Back-end Developer / Lecturer</h4>
-         <q>Byron-lee has a great personality. He’s communication skills are noteworthy and he always know when to ask question. He has an amazing skill of being able to learn new technologies very quickly. He will make a great addition to your team as a Junior Full-stack Developer.</q>
+          </div>
+        </div>
+         <q>Byron-lee has a great personality. He’s communication skills are noteworthy and he always know when to ask question. He has an amazing skill of being able to learn new technologies very quickly.</q>
+        </div>
         </div>
 
           <div class="inner">
-            <div class="image"> 
+            <div class="image">
+              <d class="header">
               <img src="https://lifechoicesacademy.com/wp-content/uploads/2020/02/Life-Choices-Academy-About-Us-Team-Member-Jason.jpg">
-            </div>
-
-            <h3>Jason Wandrag</h3>
+            <div class="info">
+              <h3>Jason Wandrag</h3>
             <h4>Front-end Developer / Lecturer</h4>
+              </div>
+             </div>
           <q>Byron-Lee has a positive and vibrant attitude. He shows a lot of commitment and works daily towards improving himself.</q>
           </div>
+
      <div class="inner">
-        <div class="image"> 
-          <img src="https://scontent-cpt1-1.xx.fbcdn.net/v/t1.6435-9/123557730_3426563674124408_3125124184011337547_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=09cbfe&_nc_eui2=AeG30IrASZx-FU9UWkHaYZJ1o3De8lIYbmSjcN7yUhhuZIBDQcFgoM3KMod_J1Rrb_fCGcBbZk4tkbqJqwcHlR2n&_nc_ohc=cVeanh7fMOUAX-8CmQe&_nc_ht=scontent-cpt1-1.xx&oh=6063a9ce7630bd8e29d54930378e31d8&oe=60B7C273" alt="">
-        </div>
-        <h3>Aneeqah Jones</h3>
+        <div class="image">
+          <div class="header"> 
+          <img src="./aneeqah.jpg" alt="">
+          <div class="info">
+            <h3>Aneeqah Jones</h3>
         <h4>Software Developer</h4>
+        </div>
+      </div>
            <q>Byron is a smart individual who pushes himself every day to be the best that he can be. He goes the extra mile to ensure that his projects are up to his standards.</q>
         </div>
+      </div>
 
       <div class="inner">  
-        <div class="image"> 
+        <div class="image">
+           <div class="header">
           <img src="./adam.jpeg" alt="">
-        </div>
-        <h3>Adam Africa</h3>
+          <div class="info">
+            <h3>Adam Africa</h3>
         <h4>Software Developer</h4>
-           <q> Byron is a very enthusiastic and energetic young man. He is highly motivated and never gives up on himself and others. </q>
         </div>
-
-        
-          
+      </div>
+           <q>Byron is a very enthusiastic and energetic young man. He is highly motivated and never gives up on himself and others. </q>
+        </div>
+      </div>
+  
             <div class="inner">  
-              <div class="image"> 
+              <div class="image">
+                 <div class="header">
                 <img src="ronald.jpeg" alt="">
-              </div>
-              <h3>Ronald Teblanche</h3>
+                <div class="info">
+                  <h3>Ronald Teblanche</h3>
               <h4>Software Developer</h4>
-          <q>Byron is stylish, fun, and kind guy who brings a positive energy to the space he inhabits. He is diligent in his work and is never scared to ask questions in order to progress. He will not only do well as a developer, but also thrive in any workspace.</q>
-        </div>              
-   </div>
+              </div>
+            </div>
+          <q>Byron is stylish, fun, and kind guy who brings a positive energy to the space he inhabits. He is diligent in his work and is never scared to ask questions in order to progress.</q>
+        </div>
+      </div>              
   </section>
+  
   <section id="Contact">
-      
       <form id="form" action="https://formspree.io/f/xbjqlwjg" method="POST">
         <div class="contact-input">
-          <div class="header"><h2>Contact Me</h2><span> Get in Touch</span></div>
+          <div class="header1"><h2>Contact Me</h2><span> Get in Touch</span></div>
           <img src="map.png" alt="map"/> 
           <div class="contact-icons">
               <div class="phone"><i class="fas fa-mobile-alt"></i><p>0678633051</p></div>
@@ -326,13 +342,13 @@
       integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
       crossorigin="anonymous"
     ></script>
-    <!-- <script> -->
+    <script>
       $(document).ready(function () {
         $(".owl-carousel").owlCarousel({
-          items: 1,
-          margin: 150,
+          items: 2,
+          margin: 120,
           loop: true,
-          stagePadding: 100,
+          stagePadding: 110,
           dots: false,
           autoplay: true,
         });

@@ -30,7 +30,7 @@ body {
   left: 0;
 }
 
-.navbar header {
+.navbar .nav-header {
   color: whitesmoke;
   background: #2e3339;
   width: 100%;
@@ -572,34 +572,47 @@ img {
   color: whitesmoke;
 }
 
+h1 {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  margin-bottom: 10%;
+}
+
 .testimonials-heading {
-  font-size: 300%;
+  font-size: 50px;
   font-weight: bolder;
   width: 100%;
   text-align: center;
   padding-top: 100px;
+  padding-left: 10%;
 }
 
 #Testimonials h4 {
   color: #007ced;
+  font-size: 20px;
 }
-
 .owl-carousel {
-  width: 50%;
-  height: 100%;
-  margin: auto;
+  padding-left: 15%;
 }
 
 .inner {
-  background: rgba(255, 255, 255, 0.25);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
+  background: #2e3339;
   border-radius: 20px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  width: 100%;
-  height: 50%;
-  padding: 10px;
+  width: 30vw;
+  height: 40vh;
+  padding: 20px;
+}
+
+.info {
+  margin-right: 20px;
+  margin-top: 30px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
 }
 
 .image img {
@@ -615,7 +628,11 @@ img {
 }
 
 .inner q {
-  font-size: 30px;
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 20px;
 }
 
 #Contact {
@@ -630,11 +647,12 @@ img {
   font-size: 20px;
 }
 
-.header {
+.header1 {
   padding-top: 30px;
+  margin-bottom: -50px;
 }
 
-.header span {
+.header1 span {
   color: #a6a7a8;
 }
 
@@ -651,6 +669,7 @@ img map {
   text-align: center;
   font-size: 20px;
   margin-bottom: 5%;
+  margin-top: -5%;
 }
 
 .contact-icons i {
@@ -675,27 +694,25 @@ label {
 
 .contact-info input {
   color: white;
+  border-radius: 5px;
+  margin-bottom: 10px;
   background: rgba(255, 255, 255, 0);
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 2px solid rgba(255, 255, 255, 0.18);
 }
 
 .contact-message input {
   color: white;
+  border-radius: 5px;
+  margin-bottom: 10px;
   background: rgba(255, 255, 255, 0);
-  border: 1px solid rgba(255, 255, 255, 0.18);
-}
-
-h1 {
-  text-transform: uppercase;
-  font-family: sans-serif;
-  margin-bottom: 10%;
+  border: 2px solid rgba(255, 255, 255, 0.18);
 }
 
 h2 {
   font-size: 50px;
   text-transform: uppercase;
   font-family: sans-serif;
-  margin-bottom: 5%;
+  margin-bottom: 20px;
 }
 .contact-bar {
   width: 50vh;
@@ -704,6 +721,9 @@ h2 {
   flex-direction: column;
   text-align: center;
 }
+.contact-form {
+  margin-top: -20px;
+}
 
 .contact-button {
   width: 10vw;
@@ -711,7 +731,7 @@ h2 {
   background-color: #007ced;
   border: #007ced;
   color: #f0f8ff;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .phone {
@@ -745,8 +765,8 @@ h2 {
   overflow: hidden;
   height: 15vh;
   width: 20vw;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .address {
